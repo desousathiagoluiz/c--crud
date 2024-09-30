@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "crud-ADO.NET-SQLServer-DOTNET", "crud-ADO.NET-SQLServer-DOTNET.csproj", "{FA1C888A-2CE9-4074-B25A-5C8F43F3F521}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA1C888A-2CE9-4074-B25A-5C8F43F3F521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA1C888A-2CE9-4074-B25A-5C8F43F3F521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA1C888A-2CE9-4074-B25A-5C8F43F3F521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA1C888A-2CE9-4074-B25A-5C8F43F3F521}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {764E7445-D626-4034-8106-BC54912B94DA}
+	EndGlobalSection
+EndGlobal

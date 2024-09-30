@@ -1,0 +1,21 @@
+CREATE TABLE customers (
+    id INT NOT NULL PRIMARY KEY IDENTITY,
+    firstname NVARCHAR (100) NOT NULL,
+    lastname NVARCHAR (100) NOT NULL,
+    email NVARCHAR (100) NOT NULL UNIQUE,
+    phone NVARCHAR (100) NOT NULL,
+    address NVARCHAR (100) NOT NULL,
+    company NVARCHAR (100) NOT NULL,
+    notes NVARCHAR (max) NOT NULL,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+INSERT INTO customers (firstname, lastname, email, phone, address, company, notes)
+VALUES
+('Leo', 'Temer', 'leo.temer@gmail.com', '31-9-9874-9874', 'Belo Horizonte, BR', 'Solucionare', ''),
+('Breno', 'Marques', 'breno-m@gmail.com', '31-9-9874-6513', 'São Paulo, BR', 'Solucionare', ''),
+('João', 'Bleiquer', 'jaodogame@gmail.com', '31-9-7895-6547', 'Rio de Janeiro, BR', 'Solucionare', ''),
+('Marcelo', 'Silva', 'marcelo1987@gmail.com', '31-9-8234-1987', 'Curitiba, BR', 'Solucionare', ''),
+('Joana', 'Maria', 'joana.m-8040@gmail.com', '31-9-8956-7321', 'Gôiania, BR', 'Solucionare', ''),
+('Ana', 'Joaquina', 'jobela.ana@gmail.com', '31-9-7593-6549', 'Belo Horizonte, BR', 'Solucionare', ''),
+('Lú', 'Carla', 'luluzinha.ca@gmail.com', '31-9-7892-4563', 'Belo Horizonte, BR', 'Solucionare', '')
